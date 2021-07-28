@@ -1,0 +1,4 @@
+Even if you are using class based components, always use arrow functions to avoid this binding
+in the constructor 
+
+In the previous video, we learned about arrow functions and binding in React. A good rule of thumb is this: Use arrow functions on any class methods you define and aren't part of React (i.e. render(), componentDidMount()).
