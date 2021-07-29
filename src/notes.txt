@@ -2,3 +2,10 @@ Even if you are using class based components, always use arrow functions to avoi
 in the constructor 
 
 In the previous video, we learned about arrow functions and binding in React. A good rule of thumb is this: Use arrow functions on any class methods you define and aren't part of React (i.e. render(), componentDidMount()).
+
+
+
+Deploying web app with github:
+    1. Add the repository 
+    2. npm i gh-pages 
+    video for deploying:  https://aguibou32.github.io/monsters-rolodex/ (but remember gh only host static web pages (without any database or backend))
